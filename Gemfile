@@ -25,6 +25,12 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
+# Development
+group :development do
+  gem 'better_errors'
+  gem "binding_of_caller"
+end
+
 # Testing
 group :test, :development do
   gem 'minitest-rails'
