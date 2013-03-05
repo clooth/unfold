@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.0.1'
 group :development do
   gem 'better_errors'
   gem "binding_of_caller"
+  gem 'guard'
 end
 
 # Testing
