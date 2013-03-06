@@ -27,9 +27,20 @@ gem 'jbuilder', '~> 1.0.1'
 
 # Development
 group :development do
+  # Better errors
   gem 'better_errors'
   gem "binding_of_caller"
+
+  # Guard added
   gem 'guard'
+  gem 'terminal-notifier-guard'
+  gem 'guard-minitest'
+  gem 'minitest-ansi'
+
+  # Cross-platform filesystem handling
+  gem 'rb-inotify', :require => false
+  gem 'rb-fsevent', :require => false
+  gem 'rb-fchange', :require => false
 end
 
 # Testing
