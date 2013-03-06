@@ -35,6 +35,7 @@ group :development do
   gem 'guard'
   gem 'terminal-notifier-guard'
   gem 'guard-minitest'
+  gem 'minitest-ansi'
 
   # Cross-platform filesystem handling
   gem 'rb-inotify', :require => false
