@@ -32,7 +32,10 @@ group :development do
   gem 'better_errors'
   gem "binding_of_caller"
 
-  # Guard added
+  # Rails panel
+  gem 'meta_request'
+
+  # Guard
   gem 'guard'
   gem 'terminal-notifier-guard'
   gem 'guard-minitest'
