@@ -44,8 +44,9 @@ group :development do
 end
 
 # Testing
-group :test, :development do
+group :test do
   gem 'minitest-rails'
+  gem "minitest-rails-capybara"
 end
 
 # To use ActiveModel has_secure_password

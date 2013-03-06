@@ -3,16 +3,10 @@ require File.expand_path('../../config/environment', __FILE__)
 
 require "minitest/autorun"
 require "minitest/rails"
-
-require 'minitest/ansi'
+require "minitest/ansi"
 MiniTest::ANSI.use!
 
-# Add `gem "minitest-rails-capybara"` to the test group of your Gemfile
-# and uncomment the following if you want Capybara feature tests
-# require "minitest/rails/capybara"
-
-# Uncomment if you want awesome colorful output
-# require "minitest/pride"
+require "minitest/rails/capybara"
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.
